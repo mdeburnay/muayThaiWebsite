@@ -6,7 +6,6 @@ import Shop from "./pages/ShopPage/Shop";
 import Home from "./pages/HomePage/HomePage.js";
 import Error from "./pages/ErrorPage/Error";
 import Gyms from "./pages/GymPage/Gyms";
-
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -14,10 +13,10 @@ function App() {
     <>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Home}></Route>
-        <Route exact path="/shop/" component={Shop}></Route>
-        <Route exact path="/gyms/" component={Gyms}></Route>
-        <Route component={Error}></Route>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/shop/" component={Shop} />
+        <Route exact path="/gyms/" component={Gyms} />
+        <Route component={Error} />
       </Switch>
     </>
   );

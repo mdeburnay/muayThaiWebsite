@@ -11,7 +11,7 @@ import arrowLogo from "../../../images/arrowSVG.svg";
 
 const API = "AIzaSyDp5XB1HNLomcylZ7CTVR6JxiO07mRpZvk";
 const playlistId = "UCDfvlEBdwpcjwAaRw1m6UiA";
-const result = 1;
+const result = 15;
 
 const URL = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${playlistId}&part=snippet,id&order=date&maxResults=${result}`;
 
