@@ -34,7 +34,7 @@ export default function ONEFCComponent() {
 
   return (
     <div className="videoPageContainer">
-      <div className="channelTitle">ONE FC</div>
+      <div className="channelTitle">Yokkao</div>
       <CarouselProvider totalSlides={3} className="videoCarousel">
         <Slider>
           <div className="vidContainer">

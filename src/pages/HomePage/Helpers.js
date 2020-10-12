@@ -1,4 +1,4 @@
-import playlistChannels from "./PlaylistData/PlaylistChannels.js";
+// import playlistChannels from "./PlaylistData/PlaylistChannels.js";
 require("dotenv").config();
 const axios = require("axios").default;
 export function GlobalFetch(playlistChannels) {
