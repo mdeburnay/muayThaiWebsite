@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./YokkaoComponentStyles.css";
 
-const API = process.env.GOOGLE_API;
+const API = "AIzaSyAKB3TVRCkS3d8T4Ikfzfk6FuCksVT8W5s";
 const playlistId = "UCDfvlEBdwpcjwAaRw1m6UiA";
 const result = 15;
 

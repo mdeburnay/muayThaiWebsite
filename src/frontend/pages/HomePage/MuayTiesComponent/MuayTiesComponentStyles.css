@@ -62,3 +62,10 @@
     padding: 8px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .vidContainer {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 8px;
+  }
+}

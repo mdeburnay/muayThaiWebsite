@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./MuayTiesComponentStyles.css";
 
-const API = process.env.GOOGLE_API;
+const API = "AIzaSyAKB3TVRCkS3d8T4Ikfzfk6FuCksVT8W5s";
 const playlistId = "UCk3THNGRpNmCsRbCaWNeWSA";
 const result = 15;
 const URL = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${playlistId}&part=snippet,id&order=date&maxResults=${result}`;

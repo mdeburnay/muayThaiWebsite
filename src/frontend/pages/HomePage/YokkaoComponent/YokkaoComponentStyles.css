@@ -4,11 +4,6 @@
   height: auto;
 }
 
-.channelTitle {
-  padding: 25px 150px;
-  font-size: 2rem;
-}
-
 .videoCarousel {
   position: relative;
 }
@@ -59,6 +54,14 @@
 .loadVideosBtn {
   width: "200px";
   justify-self: "center";
+}
+
+@media only screen and (max-width: 600px) {
+  .channelTitle {
+    padding: 25px 25px;
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 800px) {

@@ -33,13 +33,16 @@ export default class Navbar extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/fights">Fights</Link>
+              <Link to="/yokkao">Yokkao Fights</Link>
             </li>
             <li>
-              <Link to="/gyms">Gyms</Link>
+              <Link to="/oneFC">ONE FC Fights</Link>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
+              <Link to="/maxMuayThai">MAX Muay Thai Fights</Link>
+            </li>
+            <li>
+              <Link to="/muayTies">Muay Ties Fights</Link>
             </li>
           </ul>
         </div>
