@@ -15,7 +15,7 @@
 
 .vidContainer {
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   grid-gap: 10px;
   padding: 50px 25px;

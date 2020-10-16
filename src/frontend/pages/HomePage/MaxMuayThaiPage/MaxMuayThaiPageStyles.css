@@ -15,7 +15,7 @@
 
 .vidContainer {
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   grid-gap: 10px;
   padding: 50px 25px;
@@ -54,6 +54,10 @@
   padding: 15px;
   border: none;
   outline: none;
+}
+
+.loadVideosBtn {
+  width: "200px";
 }
 
 @media only screen and (max-width: 800px) {

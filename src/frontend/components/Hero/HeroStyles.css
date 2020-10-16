@@ -1,6 +1,6 @@
 .defaultHero {
   min-height: calc(100vh - 66px);
-  background: url("../../images/defaultHero.jpg") center/cover no-repeat;
+  background: url("../../../images/defaultHero.jpg") center/cover no-repeat;
   margin-top: -13px;
   display: flex;
   align-items: center;
