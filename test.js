@@ -1,13 +1,12 @@
-function findEvenNumbers(number) {
-  let numStr = number.toString().split("");
-  let evenNums =
-    +numStr
-      .filter((digit) => {
-        if (+digit % 2 === 0) return +digit;
+const divideByNextNumber = (strNum) => {
+  return (
+    strNum
+      .split("")
+      .map((n, i, arr) => {
+        return n === arr[arr.length - 1] ? +n : Math.round(+n / +arr[i + 1]);
       })
-      .sort((a, b) => b - a)
-      .join("") || 0;
-  return new Set(evenNums);
-}
+      .join("") || 0
+  );
+};
 
-console.log(findEvenNumbers(1523947232032));
+console.log(divideByNextNumber("4381"));

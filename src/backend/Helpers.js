@@ -16,11 +16,11 @@ export function GlobalFetch(playlistChannels) {
   /** Do Fetch/Axios Here */
   return axios
     .get(URL)
-    .then(function (response) {
+    .then((response) => {
       //handle success
       console.log(response);
     })
-    .catch(function (error) {
+    .catch((error) => {
       //handle error
       console.log(error);
     });
